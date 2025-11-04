@@ -1,0 +1,20 @@
+/* =====  FONT LOADING  ===== */
+/* Inter font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family:Inter:wght@300;400;500;600;700;800&display=swap');
+
+/* JetBrains Mono for code */
+ @import url('https://fonts.googleapis.com/css2?family:JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+/* =====    ===== */
+@import "./modern-normalize.css";   /* Modern CSS reset */
+@import "./variables.css";          /* CSS Variables */
+@import "./base.css";               /* Base styles */
+@import "./responsive.css";         /* Responsive styles */
+
+
+/* =====  TAILWIND  ===== */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+

@@ -1,0 +1,84 @@
+:root {
+  color-scheme: light only;
+
+  /* === ACCENT COLORS === */
+  --color-primary:          #1e3a8a;         /* Deep Navy blue */
+  --color-primary-rgb:        30, 58, 138;
+  --color-primary-light:    #2b6cb0;         /* Royal blue */
+  --color-primary-light-rgb:  43, 108, 176;
+  --color-accent-orange:    #ed8936;
+  --color-accent-green:     #38a169;
+  --color-accent-purple:    #805ad5;
+  --color-accent-purple-rgb:  28, 90, 213;
+  --color-accent-blue:      #63b3ed;
+  --color-accent-red:       #b91c1c;
+  --color-accent-cream:     #f0f0c8;
+  --color-accent-muted:     #718096;
+  --color-accent:           #4a5568;
+  --color-accent-rgb:         74, 85, 104;
+
+  /* Background & Surface Colors */
+  --color-bg:               #f5f5dc;    /* Main site bg */
+  --color-bg-secondary:     #faf8f3;
+  --color-bg-blue:          #bee3f8;
+
+  /* Borders */
+  --color-border:           #e2e8f0;
+  --color-border-dark:      #a0aec0;
+
+  /* Utility Colors */
+  --color-info:             #3182ce;
+
+  --color-success:          #2f855a;
+  --color-success-light:    #68d391;
+
+  --color-warning:          #dd6b20;
+  --color-warning-light:    #fbd38d;
+
+  --color-error:            #dc2626;
+  --color-error-light:      #fca5a5;
+
+
+  /* Typography */
+  --font-primary:     "Georgia", "Times New Roman", "Palatino", "serif";
+  --font-secondary:   "Arial", "Helvetica", "Roboto", "sans-serif";
+  --font-mono:        "Courier New", "Courier", "monospace";
+  --font-size-xxs:    0.50rem;
+  --font-size-xs:     0.65rem;
+  --font-size-small:  0.85rem;
+  --font-size-base:   1.00rem;
+  --font-size-large:  1.33rem;
+  --font-size-xl:     1.67rem;
+  --font-size-xxl:    2.00rem;
+
+
+  /* Spacing (Gap, Padding) */
+  --spacing-small:    0.5rem;
+  --spacing-base:     1.0rem;
+  --spacing-large:    1.5rem;
+  --spacing-xl:       2.0rem;
+
+  /* Borders */
+  --border-width:         2px;
+  --border-width-thick:   4px;
+
+  --border-radius-small:  4px;
+  --border-radius-base:   8px;
+  --border-radius-large: 12px;
+
+
+  /* Shadows - Warmer, softer shadows */
+  --box-shadow:   0 2px 8px rgba(0, 0, 0, 0.1);
+  --shadow-small: 0 1px 3px rgba(0, 0, 0, 0.1); 
+  --shadow-base:  0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-large: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --shadow-warm:  0 4px 12px rgba(var(--color-primary-rgb), 0.1);
+
+
+  /* Transitions */
+  /* Hover effects, modal animations */
+  --transition-fast:    0.2s ease;
+  --transition-normal:  0.5s ease;
+  --transition-slow:    0.8s ease;
+  
+}
