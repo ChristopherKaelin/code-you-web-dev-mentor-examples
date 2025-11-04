@@ -1,7 +1,11 @@
 /* =====  RESPONSIVE STYLES  ===== */
-@media (max-width: 968px) {
+@media (min-width: 768px) {
 }
 
-@media (max-width: 768px) {
-}
 
+@media (min-width: 968px) {
+  body,
+  main {
+    max-width: 1500px;
+  }
+}

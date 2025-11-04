@@ -23,12 +23,10 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  max-width: 1500px;
 }
 
 main {
   width: 100%;
-  max-width: 1500px;
   margin: 0 auto;
   padding: var(--spacing-base);
   min-height: calc(100vh - 120px);
@@ -57,4 +55,3 @@ a:hover {
 }
 
 p { margin-bottom: var(--spacing-base); }
-
